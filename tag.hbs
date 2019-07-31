@@ -6,7 +6,10 @@
     {{> site-header}}
     {{> header-background background=feature_image}} {{!--Special header-image.hbs partial to generate the background image--}}
         <div class="inner site-header-content">
-            <h1 class="site-title">{{name}}</h1>
+            <h1 class="site-title">
+                {{name}}
+                <a style="margin-left: 0.15em;" class="rss-button" href="rss/" title="{{name}} RSS" target="_blank" rel="noopener">{{> "icons/rss"}}</a>
+            </h1>
             <h2 class="site-description">
                 {{#if description}}
                 {{description}}
