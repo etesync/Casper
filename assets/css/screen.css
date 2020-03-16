@@ -562,6 +562,10 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     fill: #fff;
 }
 
+.site-title .rss-button svg {
+    fill: inherit;
+}
+
 /* Special behaviors for home navigation */
 
 .home-template .site-nav-main {
